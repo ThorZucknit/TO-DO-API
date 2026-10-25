@@ -1,0 +1,1 @@
+ALTER TABLE tarefas MODIFY titulo VARCHAR(120) NOT NULL;
