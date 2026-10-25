@@ -103,7 +103,7 @@ Considerando que a aplicação esteja executando em `http://localhost:8080` e qu
 | Método | Endpoint | Descrição |
 |---|---|---|
 | `GET` | `/list/all` | Lista todas as tarefas |
-| `GET` | `/list/tarefas/{id}` | Busca uma tarefa pelo ID |
+| `GET` | `/list/find/{id}` | Busca uma tarefa pelo ID |
 | `POST` | `/list/cadastrar` | Cadastra uma tarefa |
 | `PUT` | `/list/{id}` | Atualiza uma tarefa |
 | `DELETE` | `/list/delete/{id}` | Exclui uma tarefa |
