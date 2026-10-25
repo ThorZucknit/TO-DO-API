@@ -108,7 +108,7 @@ Considerando que a aplicação esteja executando em `http://localhost:8080` e qu
 | `PUT` | `/list/{id}` | Atualiza uma tarefa |
 | `DELETE` | `/list/delete/{id}` | Exclui uma tarefa |
 | `GET` | `/list/status?concluida=true` | Filtra pelo status |
-| `GET` | `/list/findtitle?titulo=java` | Pesquisa pelo título |
+| `GET` | `/list/findtitle?title=Correr` | Pesquisa pelo título |
 | `GET` | `/list/order?campo=titulo&direcao=asc` | Ordena as tarefas |
 
 ### Exemplo de cadastro
